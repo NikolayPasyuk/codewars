@@ -1,3 +1,3 @@
-function smash (words) {
-   return words.join(' ');
-};
+function shortcut (string) {
+  return string.replace( /[aeiou]/g, '');
+}
