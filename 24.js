@@ -12,6 +12,6 @@ function rps(p1, p2) {
     } else if (p2 === "rock" && p1 === "scissors") {
         return "Player 2 won!";
     } else {
-        return "Draw!";
+        return "Draw";
     }
 }
