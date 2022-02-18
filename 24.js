@@ -9,29 +9,9 @@ function rps(p1, p2) {
         return "Player 2 won!";
     } else if (p2 === "paper" && p1 === "rock") {
         return "Player 2 won!";
-    } else if (p1 === "rock" && p1 === "scissors") {
+    } else if (p2 === "rock" && p1 === "scissors") {
         return "Player 2 won!";
     } else {
         return "Draw!";
     }
-}
-
-if (
-    p1 === "scissors" ||
-    "paper" ||
-    "rock" > p2 === "scissors" ||
-    "paper" ||
-    "rock"
-) {
-    return "Player 1 won!";
-} else if (
-    p1 === "scissors" ||
-    "paper" ||
-    "rock" < p2 === "scissors" ||
-    "paper" ||
-    "rock"
-) {
-    return "Player 2 won!";
-} else {
-    return "Draw!";
 }
